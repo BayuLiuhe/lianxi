@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>js语法.html</title>
+	<style>
+		div{
+			width: 50px;
+			height: 50px;
+			background: red;
+		}
+	</style>
+	<script>
+		window.onload = function(){
+			function toChange(){
+				var oBox = document.getElementById('box');
+				oBox.style.background = "yellow";
+			}
+		}
+	</script>
+</head>
+<body>
+	<div id="box" onclick="toChange()">我是div!</div>
+</body>
+</html>
